@@ -18,9 +18,9 @@ project-folder/
 
 ## How to Run
 
-1. **Clone this repository** (or copy the files into a folder).
+1. **Clone this repository**
 
-2. **Build the Docker image**:
+2. **Build the Docker image inside the cloned repo**:
    
 ```sh
 docker build -t static-website .
@@ -33,19 +33,19 @@ docker run -d -p 8080:80 static-website
 ```
 
 4. **Visit the website**:
-   Open your browser and go to: [http://localhost:8080](http://localhost:8080)
+   Open a browser and go to: [http://localhost:8080](http://localhost:8080)
 
 ## Dockerfile Explanation
 
-The Dockerfile uses the official **Nginx** image and copies your static website into the container’s default web root directory.
+This Dockerfile uses the official **Nginx** image and copies the static website into the container’s default web root directory.
 
 ## Requirements
 
-* Docker installed on your system
+* Docker installed on the system
 
 ## Outcome
 
-This project demonstrates how to:
+This project gives anyone a simple idea on how to:
 
 * Build and run a container using Docker
 * Serve static files using Nginx
@@ -53,4 +53,4 @@ This project demonstrates how to:
 
 ## Contributing
 
-Feel free to modify and improve this project. Please fork the repository and submit a pull request.
+Feel free to modify and improve this project. To submit any changes, please fork the repository and submit a pull request.
